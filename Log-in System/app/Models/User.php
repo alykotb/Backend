@@ -79,4 +79,8 @@ class User extends Authenticatable
     {
         return asset($value);
     }
+    public function getAvatarttribute($value)
+    {
+        return asset($value);
+    }
 }
